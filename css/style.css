@@ -8,11 +8,43 @@
 header {
     /* DEBUG */
     background-color: cyan;
-    height: 80px;
+    height: 60px;
     width: 100%;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+header>* {
+    /* DEBUG */
+    background-color: orange;
+    border: 1px solid grey;
+
+    height: 70%;
+}
+
+.header-side {
+    width: 15%;
+}
+
+.header-nav {
+    width: 40%;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
 
 /* Regole contenuto principale */
 
