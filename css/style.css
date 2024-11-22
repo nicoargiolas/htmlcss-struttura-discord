@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Regole header */
+header {
+    /* DEBUG */
+    background-color: cyan;
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+}
+
+/* Regole contenuto principale */
+
+.jumbo {
+    /* DEBUG */
+    background-color: blue;
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-box {
+    /* DEBUG */
+    background-color: pink;
+
+    width: 50%;
+    height: 80%;
+}
