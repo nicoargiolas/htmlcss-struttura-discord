@@ -43,9 +43,6 @@ a {
 }
 
 
-
-
-
 /* Regole contenuto principale */
 
     /* DEBUG */
@@ -167,4 +164,35 @@ a {
     border: 1px solid grey;
 
     width: 25%;
+}
+
+/* Regole footer */
+footer {
+    /* DEBUG */
+    background-color: rgba(0, 0, 0, 0.835);
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer section {
+    /* DEBUG */
+    background-color: aquamarine;
+
+    width: 70%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section div {
+    /* DEBUG */
+    background-color: orange;
+    border: solid 1px grey;
+
+    height: 50%;
+    width: 70px;
 }
