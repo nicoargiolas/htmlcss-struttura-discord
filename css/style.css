@@ -16,6 +16,17 @@ header {
 
 /* Regole contenuto principale */
 
+    /* DEBUG */
+    section, .nav-menu {
+        border: solid 2px black;
+    }
+
+    .nav-menu section {
+        border: 0px;
+    }
+
+
+   
     /* Regole jumbo */
 .jumbo {
     /* DEBUG */
@@ -39,9 +50,8 @@ header {
     /* Regole sezioni centrali */
 .central-sections section{
     /* DEBUG */
-    border: solid 2px black;
-
     height: 500px;
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -71,4 +81,58 @@ header {
 
 .text-first {
     background-color: gray;
+}
+
+    /* Regole sezione finale */
+.final-section {
+    /* DEBUG */
+    background-color: grey;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-section div {
+    /* DEBUG */
+    background-color: green;
+
+    width: 70%;
+    height: 90%;
+}
+
+
+    /* Regole manù navigazione */
+.nav-menu {
+    /* DEBUG */
+    background-color: rgba(0, 0, 0, 0.835);
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.left-nav-menu {
+    /* DEBUG */
+    background-color: pink;
+
+    width: 20%;
+    height: 90%;
+}
+
+.right-nav-menu {
+    /* DEBUG */
+    background-color: aquamarine;
+    width: 50%;
+    height: 90%;
+    display: flex;
+}
+
+.right-nav-menu div {
+    /* DEBUG */
+    border: 1px solid grey;
+
+    width: 25%;
 }
