@@ -16,6 +16,7 @@ header {
 
 /* Regole contenuto principale */
 
+    /* Regole jumbo */
 .jumbo {
     /* DEBUG */
     background-color: blue;
@@ -33,4 +34,41 @@ header {
 
     width: 50%;
     height: 80%;
+}
+
+    /* Regole sezioni centrali */
+.central-sections section{
+    /* DEBUG */
+    border: solid 2px black;
+
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    /* DEBUG */
+    background-color: aqua;
+
+    width: 45%;
+    height: 80%;
+}
+
+.text-box {
+    /* DEBUG */
+    background-color: aquamarine;
+
+    width: 25%;
+    height: 80%;
+}
+
+.text-first .text-box {
+    order: -1;
+}
+
+.text-first {
+    background-color: gray;
 }
