@@ -6,22 +6,22 @@
 
 /* Regole header */
 header {
-    /* DEBUG */
-    background-color: cyan;
     height: 60px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* DEBUG */
+    background-color: cyan;
 }
 
 header>* {
+    height: 70%;
+
     /* DEBUG */
     background-color: orange;
     border: 1px solid grey;
-
-    height: 70%;
 }
 
 .header-side {
@@ -58,54 +58,53 @@ a {
    
     /* Regole jumbo */
 .jumbo {
-    /* DEBUG */
-    background-color: blue;
-    height: 400px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* DEBUG */
+    background-color: blue;
+    height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .jumbo-box {
+    width: 50%;
+    max-height: 100%;
+    min-height: 320px;
+
     /* DEBUG */
     background-color: pink;
-
-    width: 50%;
-    height: 80%;
 }
 
     /* Regole sezioni centrali */
-.central-sections section{
-    /* DEBUG */
-    height: 500px;
-
+.central-sections>div {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    /* DEBUG */
+    height: 500px;
 }
 
 .img-box {
-    /* DEBUG */
-    background-color: aqua;
-
     width: 45%;
     height: 80%;
+
+    /* DEBUG */
+    background-color: aqua;
 }
 
 .text-box {
-    /* DEBUG */
-    background-color: aquamarine;
-
     width: 25%;
     height: 80%;
-}
 
-.text-first .text-box {
-    order: -1;
+    /* DEBUG */
+    background-color: aquamarine;
 }
 
 .text-first {
@@ -114,85 +113,93 @@ a {
 
     /* Regole sezione finale */
 .final-section {
-    /* DEBUG */
-    background-color: grey;
-    height: 800px;
-
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* DEBUG */
+    background-color: grey;
+    height: 800px;
 }
 
 .final-section div {
-    /* DEBUG */
-    background-color: green;
-
     width: 70%;
     height: 90%;
-}
 
-
-    /* Regole manù navigazione */
-.nav-menu {
     /* DEBUG */
-    background-color: rgba(0, 0, 0, 0.835);
-    height: 500px;
-
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
+    background-color: green;
 }
 
-.left-nav-menu {
-    /* DEBUG */
-    background-color: pink;
-
-    width: 20%;
-    height: 90%;
-}
-
-.right-nav-menu {
-    /* DEBUG */
-    background-color: aquamarine;
-    width: 50%;
-    height: 90%;
-    display: flex;
-}
-
-.right-nav-menu div {
-    /* DEBUG */
-    border: 1px solid grey;
-
-    width: 25%;
-}
 
 /* Regole footer */
 footer {
     /* DEBUG */
     background-color: rgba(0, 0, 0, 0.835);
-    height: 70px;
+    height: 570px;
+}
 
+    /* Regole manù navigazione */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+
+    /* DEBUG */
+    background-color: rgba(0, 0, 0, 0.835);
+    height: 500px;
+    width: 100%
+}
+    
+.left-nav-menu {
+    width: 20%;
+    height: 90%;
+    
+    /* DEBUG */
+    background-color: pink;
+}
+    
+.right-nav-menu {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    
+    /* DEBUG */
+    background-color: aquamarine;
+}
+    
+.right-nav-menu div {
+    width: 25%;
+
+    /* DEBUG */
+    border: 1px solid grey;
+}
+
+.footer-bottom {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
+    /* DEBUG */
+    height: 70px;
+    width: 100%;
 }
 
-footer section {
-    /* DEBUG */
-    background-color: aquamarine;
-
+.footer-bottom .footer-container {
     width: 70%;
     height: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* DEBUG */
+    background-color: aquamarine;
 }
 
-footer section div {
+.footer-container div {
+    height: 50%;
+    width: 70px;
+
     /* DEBUG */
     background-color: orange;
     border: solid 1px grey;
-
-    height: 50%;
-    width: 70px;
 }
